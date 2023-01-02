@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  
+<head> 
+  <title>Tables in HTML</title>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <h1>How to Create a Table in HTML</h1>
+  <div>
+  <h3 class='section lead'>Elements of a Table 
+    </h3>
+    <table id="Table 1">
+       <thead>
+          <tr>
+            <td>Order</td>
+            <td>Element</td>
+            <td>Description</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>table</td>
+            <td>Add this to begin your table</td>
+            <td>00</td></tr>
+          <tr> 
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td>00</td>
+          </tr> 
+          <tr>
+            <td>3</td>
+            <td>thead</td>
+            <td>Top row of the table. Include table row, tr, and then table data, td, as many times as you need columns. Be sure to include titles of each column between td.</td>
+            <td>00</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>tbody</td>
+            <td>The main body of the table.  Add tr as many times you have items and td as many times as you have columns. This pattern will repeat to get the length of the table. </td>
+            <td>00</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>tfooter</td>
+            <td>This element is used at the bottom of the table.  Use this to total columns or summarize your table.</td>
+            <td>00</td></tr>
+          <tr>
+            <td>6</td>
+            <td>colspan</td>
+            <td colspan="2">Used for data to span indicated number of columns.  I used it here to display feature.</td>
+            <td></td></tr>
+          <tr>
+            <td rowspan="2">7</td>
+            <td>rowspan</td>
+            <td>This will expand rows by number indicated. I used this element in the td first column to show you how to use it.</td>
+            <td>00</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td></td>
+            <td></td>
+            <td>00</td>
+          </tr>  
+          <tfoot>
+            <td colspan="3">Learning to set up your table is easy with this handy chart.</td>
+          </tfoot>
+      </tbody>
+  </table>
+</div>
+<h3 class='section lead'>CSS Elements to Style Your Table</h3>
+  <p>An external style sheet uses file name .css. An internal stylesheet is written using the style element inside the head element of an HTML file.
+    CSS always placed between {} brackets with a style: and ; after each style.  
+    There are two ways to add style to your page.</p> 
+    <body>
+      <ol>
+        <li> Embed CSS into HTML code</li>
+        <li> Create CSS styles file</li>
+      </ol>
+      <p>Makes to set html elements with a class and/or id to identify where your css style should be applied.</p>
+    </body>
+  <table id="Table 2">
+    <thead>
+      <tr>
+        <td>Order</td>
+        <td>Element</td>
+        <td>What it does</td>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>type</td>
+          <td></td></tr>
+        <tr>
+          <td>2</td>
+          <td>font weight</td>
+          <td></td></tr>
+        <tr>
+          <td>3</td>
+          <td>text-align</td>
+          <td></td></tr>
+        <tr>
+          <td>4</td>
+          <td>background-color</td>
+          <td></td></tr>
+        <tr>
+          <td>5</td>
+          <td>Class Selectors .name and #name</td>
+          <td>These will syle based on class name or id</td></tr>
+        <tr>
+          <td>6</td>
+          <td>Combine styles</td>
+          <td>seperate style location by a comma to apply style to multiple areas</td>
+         </tr>
+       </tbody>
+    </table>
+  </div>
+
+
+</body>
